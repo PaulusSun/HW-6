@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def test_assertion():
+def test_Background_color_from_boxes():
     driver = webdriver.Chrome()
 
     driver.implicitly_wait(10)
